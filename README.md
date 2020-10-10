@@ -2,10 +2,11 @@
 
 These are tools for creating maps at various zoom-levels for [pakemon](https://github.com/notnullgames/pakemon).
 
-You will need to download a map from [here](https://openmaptiles.com/downloads/dataset/satellite-lowres). It should be a mbtile file. Mine was called `satellite-lowres-v1.2-z0-z5.mbtiles`.
+You will need to download a mbtile file.
 
-Other sources for maps:
+sources for maps:
 
+* [a lowres map from openmaptimes](https://openmaptiles.com/downloads/dataset/satellite-lowres) - it only does 5X
 * more limited mbtile file from [hotosm](https://export.hotosm.org/) at various zoom-levels.
 * a detailed world-map from [openandromaps](https://www.openandromaps.org/en/downloads/general-maps) (under "Manual installation for any App")
 
