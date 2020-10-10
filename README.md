@@ -2,7 +2,7 @@
 
 These are tools for creating maps at various zoom-levels for [pakemon](https://github.com/notnullgames/pakemon).
 
-You will need to downlaod a map from [here](https://openmaptiles.com/downloads/dataset/satellite-lowres). It should be a mbtile file. Mine was called `satellite-lowres-v1.2-z0-z5.mbtiles`.
+You will need to download a map from [here](https://openmaptiles.com/downloads/dataset/satellite-lowres). It should be a mbtile file. Mine was called `satellite-lowres-v1.2-z0-z5.mbtiles`.
 
 Other sources for maps:
 
