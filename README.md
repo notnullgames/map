@@ -21,7 +21,7 @@ Now, run the included python script to download tiles to `tiles/` with zoom-leve
 
 ```
 python3 gettiles.py "http://localhost:8080/data/openmaptiles_satellite_lowres/{z}/{x}/{y}.jpg" tiles 5
-
+```
 
 If you get an error about `requests` do this:
 
