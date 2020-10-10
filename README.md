@@ -13,7 +13,7 @@ sources for maps:
 Once you have your mbtiles file, load a map-server in docker:
 
 ```sh
-docker run --rm -it -v $(pwd):/data -p 8080:80 maptiler/tileserver-gl /data/satellite-lowres-v1.2-z0-z5.mbtiles
+docker run --rm -it -v $(pwd):/data -p 8080:80 maptiler/tileserver-gl /data/W1-10-J70.mbtiles
 ```
 
 You can explore your map [here](http://localhost:8080)
@@ -21,7 +21,7 @@ You can explore your map [here](http://localhost:8080)
 Now, run the included python script to download tiles to `tiles/` with zoom-level 5:
 
 ```
-python3 gettiles.py "http://localhost:8080/data/openmaptiles_satellite_lowres/{z}/{x}/{y}.jpg" tiles 5
+python3 gettiles.py "http://localhost:8080/data/W1-10-J70/{z}/{x}/{y}.png" tiles 5
 ```
 
 You can get the URL format to use by visiting [the map-server](http://localhost:8080), and right-clicking on a tile and say "open image in a new tab" then note the URL.
