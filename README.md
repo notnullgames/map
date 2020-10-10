@@ -24,6 +24,8 @@ Now, run the included python script to download tiles to `tiles/` with zoom-leve
 python3 gettiles.py "http://localhost:8080/data/openmaptiles_satellite_lowres/{z}/{x}/{y}.jpg" tiles 5
 ```
 
+You can get the URL format to use by visiting [the map-server](http://localhost:8080), and right-clicking on a tile and say "open image in a new tab" then note the URL.
+
 If you get an error about `requests` do this:
 
 ```
