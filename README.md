@@ -7,7 +7,7 @@ You will need to download a mbtile file.
 sources for maps:
 
 * [a lowres map from openmaptiles](https://openmaptiles.com/downloads/dataset/satellite-lowres) - it only does 5X
-* more limited mbtile file from [hotosm](https://export.hotosm.org/) at various zoom-levels.
+* more limited mbtile file from [hotosm](https://export.hotosm.org/) at various zoom-levels. You can get a really nice & detailed subset
 * a detailed world-map from [openandromaps](https://www.openandromaps.org/en/downloads/general-maps) (under "Manual installation for any App")
 
 Once you have your mbtiles file, load a map-server in docker:
